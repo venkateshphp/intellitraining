@@ -1,0 +1,604 @@
+/* Theme Name: Intellitraining */
+/****************************
+   Newly added Style Start 
+******************************/
+a:hover {
+text-decoration:none;
+}
+.change_color,.change_color:hover {
+color:#838485;
+}
+.footer-back li,.footer-back-text li {
+list-style-type:none;
+}
+.error1 {
+    color: red;
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    top: 83%;
+    width: 58%;
+}
+.for_min_height {
+/*min-height:250px;
+float:left;*/
+}
+.dataTables_filter {
+    float: right !important;
+    margin:1% !important;
+}
+.dataTables_length {
+width:20%;
+margin:1% !important;
+}
+#reorder .green-button {
+text-decoration:none  !important;
+}
+#reorder .green-button:hover {
+text-decoration:none  !important;
+}
+@media only screen and (min-width:990px){
+.for_min_height {
+min-height:250px;
+float:left;
+}
+
+}
+@media only screen and (max-width:768px){
+
+#reorder .green-button {
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+}
+#reorder .green-button:hover {
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+}
+}
+.margintop20 li {
+    list-style-type: none;
+}
+.wpcf7-list-item-label {
+color:white;
+}
+
+/****************For Ajax Loader Icon Start***********************/
+@media only screen and (max-width:320px){
+#mydiv img {
+width:70px !important;
+float:left;
+}
+}
+#mydiv {
+  height: 400px;
+  position: relative;
+}
+.ajax-loader {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  margin-left: -32px; /* -1 * image width / 2 */
+  margin-top: -32px; /* -1 * image height / 2 */
+}
+.no-course {
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	border:1px solid #06cbcb;
+}
+/****************For Ajax Loader Icon Start***********************/
+marquee {
+text-align:right;
+}
+.course-h2-content {
+font-size:30px;
+}
+.table-border {
+border:none;
+}
+.dataTables_filter {
+    display: none;
+}
+
+.client-fea-img {
+padding:1% 0;
+}
+.captitalize-title {
+text-transform:capitalize;
+}
+.well-green .wpcf7-response-output.wpcf7-mail-sent-ok {
+color:white;
+}
+.page-content iframe,.video_section iframe {
+width:100%;
+}
+.home {
+display:none;
+}
+.key_fea_section, .video_section, .need_help_part {
+float: left;
+margin: 1% 0;
+width: 100%;
+}
+.filtered_product_part {
+display:none !important;
+}
+.tab-part .tab-content {
+border:none;
+}
+.need_help_part ul {
+    list-style-type: unset;
+    padding-left: 2%;
+}
+.tab-part .over-Details {
+background-color:white;
+}
+/*table.cart {
+table-layout: fixed;
+width: 100%;	
+}
+table.cart td {
+word-wrap: break-word;
+}*/
+/**********added for video start************/
+.simple-video-wrapper {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	/*width: 853px;*/
+	width:100%;
+}
+
+.video-section {
+width:100%;
+}
+.simple-video-overlay {
+	/*background: rgba(0,0,0,0.4) url(images/button.png) 50% 50% no-repeat;*/
+	background: rgba(0,0,0,0.4) url(images/button.png) 50% 28% no-repeat;
+	cursor: pointer;
+	display: none;
+	/*display: block;*/
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+/**********added for video end************/
+/*************added new 25may 2015 start ***********/
+.treding-course .bg-white-rounded {
+border-radius:0;
+}
+.treding-course h3 {
+color:white;
+}
+/*.treding-course .col-md-4 {
+padding:0;
+}*/
+/*************added new 25may 2015 end ***********/
+/**************added new 26may 2015 start***********/
+.testimonial-btn {
+padding: 1% !important;
+margin-left: 2% !important;
+font-weight: bold;
+text-transform: capitalize !important;
+margin-top: 1%;
+color:#888 !important;
+font-family: "Roboto",sans-serif;
+font-size: 14px !important;
+  }
+.padding-box {
+    padding: 10px;
+}
+.blackheading {
+    color: #282828;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+p {
+    color: #888;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+.btn-danger {
+    background-color: #00a99d;
+    border-color: #00a99d;
+    color: #fff;
+    padding: 10px 20px;
+}
+.trending-btn {
+font-size:12px;
+font-weight:bold;
+}
+.treding-course .course-rating {
+border:none;
+}
+.treding-course .col-md-4 {
+  padding-right: 10px;
+   padding-left: 0; 
+}
+.treding-course .col-trend {
+padding-top:10px;
+}
+.treding-course img	{
+width:68%;
+}
+.treding-course .pull-left {
+margin-left:8%;
+}
+.treding-course .pull-right {
+margin-right:11%;	
+} 
+ /********************************* Custom My Account Page Styles Start*************************************/
+
+.woocommerce h2,.login_part h2 {
+
+  margin: 2% 0;
+
+}
+
+.woocommerce th,.login_part th {
+
+background-color:#06cbcb;
+
+font-size: 16px;
+
+line-height: 30px;
+
+color: #838383;
+
+color: #fff;
+
+text-align:center;
+
+}
+
+.woocommerce td,.woocommerce input{
+
+font-size: 16px;
+
+line-height: 30px;
+
+color: #838383;
+
+}
+
+.woocommerce input[type='submit'], .woocommerce .wc-proceed-to-checkout a{
+
+  background-color: #0dd1d1 !important;
+
+  font-size: 16px !important;
+
+  line-height: 30px !important;
+
+  border-radius: 6px !important;
+
+  color: #fff !important;
+
+  text-align: center !important;
+
+  background-image: none !important;
+
+  border: 0 !important;
+
+/*  font-family: 'open_sansregular' !important;
+*/
+font-family: "Roboto Condensed",sans-serif !important;
+
+  margin: 2% 0 !important;
+
+  text-shadow:none !important;
+
+}
+
+.woocommerce input,.woocommerce textarea { 
+
+border-radius: 4px;
+
+}
+
+.whole-outer a{
+
+font-size: 16px;
+
+line-height: 30px;
+
+color: #838383;
+
+font-weight:bold;
+
+}
+
+.woocommerce a{
+
+font-size: 16px;
+
+line-height: 30px;
+
+color: #838383;
+
+font-weight:bold;
+
+}
+
+.whole-outer a:hover{
+
+text-decoration:underline;
+
+}
+
+.woocommerce a:hover{
+
+text-decoration:underline;
+
+}
+
+.woocommerce table {
+
+border-radius: 10px;
+
+}
+
+ul.payment_methods.methods {
+
+  width: 96%;
+
+  float: left;
+
+  border: none !important;
+
+}
+
+div#customer_details, form.login {
+
+  background-color: white;
+
+  color: gray;
+
+  border-radius: 6px;
+
+  border: 1px solid gray;
+
+}
+
+div#customer_details input[type="text"],.woocommerce input[type="text"],.woocommerce input[type="password"],.woocommerce input[type="email"]{
+
+  width: 98.1% !important;
+
+  line-height: 30px !important;
+
+  border: 2px solid #d1d1d1;
+
+  border-radius: 5px;
+
+  /*font-family: 'open_sansregular' !important;*/
+  font-family: "Roboto Condensed",sans-serif  !important;
+
+  font-size: 15px;
+
+ color:gray;
+
+  margin-top: 10px;
+
+  }
+
+  form.login input[type="text"],form.login input[type="password"]{
+
+  width: 98.1% !important;
+
+  line-height: 30px !important;
+
+  border: 2px solid #d1d1d1 !important;
+
+  border-radius: 5px !important;
+
+ /* font-family: 'open_sansregular' !important;*/
+  
+    font-family: "Roboto Condensed",sans-serif  !important;
+
+
+  font-size: 12px !important;
+
+ color:gray !important;
+
+  margin-top: 10px !important;
+
+  }
+
+  div#customer_details input[type="checkbox"], form.login input[type="checkbox"],.woocommerce input[type="checkbox"] {
+
+  width: 19px !important;
+
+  height: 30px !important;
+
+  border: 2px solid #d1d1d1 !important;
+
+  border-radius: 5px !important;
+
+  vertical-align: bottom !important;
+
+}
+
+label.inline {
+
+  width: 87%;
+
+  float: right;
+
+  margin-top: 3%;
+
+}
+
+dl.variation dt {
+
+  width: 45%;
+
+  float: left;
+
+}
+
+dl.variation dd {
+
+  margin: 0;
+
+}
+
+input#coupon_code {
+
+  margin-top: 5%;
+
+}
+
+.woocommerce-info {
+
+border-top: 3px solid #8fae1b !important;
+
+}
+
+.woocommerce-info:before {
+
+  background-color: #8fae1b !important;
+
+  content: "\2713";
+
+}
+
+ul.chosen-results li {
+
+  color: black;
+
+}
+
+/*.checkout .col-1{
+
+float: left;
+
+  width: 55% !important;
+
+}*/
+
+.woocommerce-billing-fields {
+
+  padding: 6%;
+
+}
+
+/*.checkout .col-2{
+
+  float: right;
+
+  width: 39% !important;
+
+  padding: 3%;
+
+}*/
+
+p.form-row.terms label {
+
+  width: 70%;
+
+  float: left;
+
+  margin-top: 3%;
+
+  margin-right: 2%;
+
+}
+
+p.form-row.terms .input-checkbox {
+
+  width: 100%;
+
+  float: left;
+
+  margin-top: 3.5% !important;
+
+}
+@media only screen and (max-width:568px){
+.woocommerce td.product-name dl.variation dt {
+   width:100%;
+}
+
+}
+@media only screen and (max-width:360px){
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+  
+    float: left !important;
+
+  width: 100% !important;
+
+  text-align: left !important;
+
+}
+
+}
+.page-content {
+width:100%;
+float:left;
+}
+.woocommerce form .form-row select {
+  cursor: pointer;
+  margin: 0;
+  padding: 2%;
+  border-radius: 5px;
+  border: 2px solid #d1d1d1;
+}
+.woocommerce-billing-fields h3,.woocommerce-shipping-fields h3,#order_review_heading{
+font-size:24px;
+margin:3%;
+}
+ /********************************* Custom My Account Page Styles End*************************************/
+/**************added new 26may 2015 end***********/
+/**************added new 27may 2015 start***********/
+
+.tab-content ul {
+  list-style-type: disc;
+  padding-left: 2%;
+}
+/**************added new 27may 2015 end***********/
+.cart_icon {
+    left: 73px;
+    /*position: relative;*/
+    top: -63px;
+    width: auto;
+}
+.cart_count {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 19px;
+    color: white;
+    font-size: 13px;
+    left: -8px;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    top: -15px;
+    width: 101%;
+}
+/****************************
+   Newly added Style End 
+******************************/
+a.button.cancel {
+  display: none !important;
+}
+.cart_icon_section {
+/*    border: 1px solid red;
+*/    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    width: auto;
+}

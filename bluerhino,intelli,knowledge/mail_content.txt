@@ -1,0 +1,21 @@
+Hi Chris,
+
+The following points are Done.
+
+1)We integrate the "testimonials","blog","our clients" pages (as well as single page also)
+
+2)"Elarning","fags"  pages also integrated 
+
+3)we removed the unwanted functionality that we used in "prevoius site".
+
+4)we checked the responsive also 
+
+5)For "latest tweets" in "home page" we craeted a custom own plugin 
+
+you can find the options in (http://www.bluerhinotraining.com/wp-admin/themes.php?page=twitts_theme_options)
+
+Kindly check and let you know your suggestions
+
+Thanks,
+
+Vinoth
